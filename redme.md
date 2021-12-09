@@ -23,3 +23,5 @@ it is for infrastructure provides
   - name: Print the oslevel
     debug:
       msg: "{{ ansible_hostname }} has the AIX oslevel of {{ output_oslevel.stdout }}"
+
+      https://www.ansible.com/blog/aix-patch-management-with-ansible
